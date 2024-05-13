@@ -6,7 +6,7 @@
 ##                  ejs 
 ##                  method-override
 ##                  ejs-mate
-##
+##                  joi
 
 ## -----Start Server-----
 ## > nodemon app.js
@@ -23,17 +23,20 @@
 
 ## Create VIEWS FOLDER
 1. home.ejs
-## - Campgrounds Folder
+2. error.ejs
+## --- Campgrounds Folder
 1. campground.ejs
 2. show.ejs
 3. new.ejs
 4. edit.ejs
-## - Layout Folder
+## --- Layout Folder
 1. boilerplate.ejs
-## - Partials Folder
+## --- Partials Folder
 1. navbar.ejs
 
 ## Create Models FOLDER
 1. campground.js
 
-
+## Create Utils FOLDER
+1. catchAsync.js
+2. ExpressError.js
