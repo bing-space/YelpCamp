@@ -36,6 +36,7 @@
 
 ## Create Models FOLDER
 1. campground.js
+2. review.js
 
 ## Create Utils FOLDER
 1. catchAsync.js
