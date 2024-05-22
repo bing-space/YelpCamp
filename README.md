@@ -7,6 +7,8 @@
 ##                  method-override
 ##                  ejs-mate
 ##                  joi
+##                  connect-flash
+##                  express-session
 
 ## -----Start Server-----
 ## > nodemon app.js
@@ -41,3 +43,12 @@
 ## Create Utils FOLDER
 1. catchAsync.js
 2. ExpressError.js
+
+# Create Routes FOLDER
+1. campgrounds.ejs
+2. reviews.js
+
+# Create Public FOLDER
+1. javascripts
+    1. validateForms.js
+2. stylesheets
