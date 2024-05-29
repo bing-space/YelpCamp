@@ -9,6 +9,7 @@
 ##                  joi
 ##                  connect-flash
 ##                  express-session
+##                  passport passport-local passport-local-mongoose
 
 ## -----Start Server-----
 ## > nodemon app.js
