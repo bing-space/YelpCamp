@@ -1,28 +1,35 @@
 # YelpCamp
 
+## Install: 
+```
 ## YelpCamp > npm init -y
-## YelpCamp > npm i express 
-##                  mongoose 
-##                  ejs 
-##                  method-override
-##                  ejs-mate
-##                  joi
-##                  connect-flash
-##                  express-session
-##                  passport passport-local passport-local-mongoose
+##            express 
+##            mongoose 
+##            ejs 
+##            method-override
+##            ejs-mate
+##            joi
+##            connect-flash
+##            express-session
+##            passport passport-local passport-local-mongoose
+```
 
-## -----Start Server-----
-## > nodemon app.js
-## -----Seeding Campground-----
-## > node seeds/index.js
-## -----In Database-----
-## > mongosh
-## > use yelp-camp
-## > db.campgrounds.find()
-## -----Style-----
-## Use Bootstrap 5
-## -----Free Images----
-## Unsplash.com
+## Start Server
+```
+> nodemon app.js
+```
+## Seeding Campground
+```
+> node seeds/index.js
+```
+## In Database
+```
+> mongosh
+> use yelp-camp
+> db.campgrounds.find({})
+> db.reviews.find({})
+> db.users.find({})
+```
 
 ## Create VIEWS FOLDER
 1. home.ejs
