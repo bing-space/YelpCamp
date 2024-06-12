@@ -12,6 +12,13 @@
 ##            connect-flash
 ##            express-session
 ##            passport passport-local passport-local-mongoose
+##            multer
+##            dotenv
+##            cloudinary@1.41.3
+##            multer-storage-cloudinary@4.0.0
+##            multer@1.4.5-lts.1
+##            bs-custom-file-input
+
 ```
 
 ## Start Server
@@ -31,32 +38,17 @@
 > db.users.find({})
 ```
 
-## Create VIEWS FOLDER
-1. home.ejs
-2. error.ejs
-## --- Campgrounds Folder
-1. campground.ejs
-2. show.ejs
-3. new.ejs
-4. edit.ejs
-## --- Layout Folder
-1. boilerplate.ejs
-## --- Partials Folder
-1. navbar.ejs
+## Folders/Files
+> FOLDER: controllers
+>> campgrounds.js
+>
+>> reviews.js
+>
+>> users.js
 
-## Create Models FOLDER
-1. campground.js
-2. review.js
-
-## Create Utils FOLDER
-1. catchAsync.js
-2. ExpressError.js
-
-# Create Routes FOLDER
-1. campgrounds.ejs
-2. reviews.js
-
-# Create Public FOLDER
-1. javascripts
-    1. validateForms.js
-2. stylesheets
+> FOLDER: models
+>> campground.js
+>
+>> review.js
+>
+>> user.js
