@@ -18,7 +18,7 @@
 ##            multer-storage-cloudinary@4.0.0
 ##            multer@1.4.5-lts.1
 ##            bs-custom-file-input
-
+##            @mapbox/mapbox-sdk
 ```
 
 ## Start Server
