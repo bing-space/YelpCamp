@@ -25,7 +25,13 @@ const seedDB = async () => {
             title: `${sample(descriptors)} ${sample(places)}`,
             description: 'It can also be successfully used as a daily exercise to get writers to begin writing. Being shown a random sentence and using it to complete a paragraph each day can be an excellent way to begin any writing session.',
             price,
-            geometry: { type: 'Point', coordinates: [ -75.16401, 39.950886 ] },
+            geometry: { 
+                type: 'Point', 
+                coordinates: [ 
+                    cities[random1000].longitude,
+                    cities[random1000].latitude
+                 ] 
+                },
             images: [
                 {
                     url: 'https://res.cloudinary.com/dgz0byy28/image/upload/v1717892440/YelpCamp/znx8zngxwna0tyuvwzlh.avif',
