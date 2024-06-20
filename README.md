@@ -19,6 +19,9 @@
 ##            multer@1.4.5-lts.1
 ##            bs-custom-file-input
 ##            @mapbox/mapbox-sdk
+##            express-mongo-sanitize
+##            sanitize-html
+##            helmet
 ```
 
 ## Start Server
@@ -37,6 +40,12 @@
 > db.reviews.find({})
 > db.users.find({})
 ```
+## In Production
+```
+> NODE_ENV=production node app.js
+```
+
+
 
 ## Folders/Files
 > FOLDER: controllers
