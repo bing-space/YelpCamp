@@ -22,6 +22,7 @@
 ##            express-mongo-sanitize
 ##            sanitize-html
 ##            helmet
+##            connect-mongo
 ```
 
 ## Start Server
